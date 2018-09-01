@@ -1,0 +1,16 @@
+E:\Agile\UI Mock Up\UI Mock Up\bin\Debug\UI Mock Up.exe.config
+F:\Agile\UI Mock Up\UI Mock Up\bin\Debug\UI Mock Up.exe.config
+F:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI Mock Up.vbprojResolveAssemblyReference.cache
+F:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI_Mock_Up.Login.resources
+F:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI_Mock_Up.Register.resources
+F:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI_Mock_Up.Resources.resources
+F:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI Mock Up.vbproj.GenerateResource.Cache
+F:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI Mock Up.xml
+F:\Agile\UI Mock Up\UI Mock Up\bin\Debug\UI Mock Up.exe
+F:\Agile\UI Mock Up\UI Mock Up\bin\Debug\UI Mock Up.pdb
+F:\Agile\UI Mock Up\UI Mock Up\bin\Debug\UI Mock Up.xml
+F:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI Mock Up.exe
+F:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI Mock Up.pdb
+E:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI Mock Up.exe
+E:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI Mock Up.xml
+E:\Agile\UI Mock Up\UI Mock Up\obj\Debug\UI Mock Up.pdb

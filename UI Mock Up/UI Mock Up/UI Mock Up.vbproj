@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97756579-BB3C-4576-A1AD-5CEA020EF8EC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>UI_Mock_Up.My.MyApplication</StartupObject>
+    <RootNamespace>UI_Mock_Up</RootNamespace>
+    <AssemblyName>UI Mock Up</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>UI Mock Up.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>UI Mock Up.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ElectronicReceipt.Designer.vb">
+      <DependentUpon>ElectronicReceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ElectronicReceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerateInvoice.Designer.vb">
+      <DependentUpon>GenerateInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoneyDuePaidvb.Designer.vb">
+      <DependentUpon>MoneyDuePaidvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MoneyDuePaidvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentMethod.Designer.vb">
+      <DependentUpon>PaymentMethod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentMethod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileCustomer.Designer.vb">
+      <DependentUpon>ProfileCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileFarmer.Designer.vb">
+      <DependentUpon>ProfileFarmer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileFarmer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileWorker.Designer.vb">
+      <DependentUpon>ProfileWorker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileWorker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase.Designer.vb">
+      <DependentUpon>Purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.vb">
+      <DependentUpon>Register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReviewAmendOrders.Designer.vb">
+      <DependentUpon>ReviewAmendOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewAmendOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReviewProductInfo.Designer.vb">
+      <DependentUpon>ReviewProductInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewProductInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ElectronicReceipt.resx">
+      <DependentUpon>ElectronicReceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerateInvoice.resx">
+      <DependentUpon>GenerateInvoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoneyDuePaidvb.resx">
+      <DependentUpon>MoneyDuePaidvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentMethod.resx">
+      <DependentUpon>PaymentMethod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileCustomer.resx">
+      <DependentUpon>ProfileCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileFarmer.resx">
+      <DependentUpon>ProfileFarmer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileWorker.resx">
+      <DependentUpon>ProfileWorker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase.resx">
+      <DependentUpon>Purchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReviewAmendOrders.resx">
+      <DependentUpon>ReviewAmendOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReviewProductInfo.resx">
+      <DependentUpon>ReviewProductInfo.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
